@@ -1,0 +1,146 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border box;   
+ }
+ body{
+     width: 100%;
+     background: url("https://roadmap.sh/bg.jpg");
+     position: relative;
+     font-family: 'Roboto',sans-serif;
+ }
+ .navbar{
+     width: 100%;
+     height: 90px;
+     position:fixed;
+     top: 0;
+     left: 0;
+     padding: 0 5px  ;
+     background: #3589A1;
+     z-index: 9;
+     display: flex;
+     align-items:center;
+ 
+ }
+  /* brand logo */
+  .brand-logo{
+     width:90px;
+     height:90px;
+  }
+  .nav-links{
+     margin-top:15px;
+     display: flex;
+     list-style: none;
+     margin-inline: 420px; 
+     font-size: 20px;
+     
+  }
+  .nav-items a
+  {
+     text-decoration: none;
+     margin-left:20px;
+     text-transform: capitalize;
+     color:#fff;
+     opacity: 01.0;
+   
+ 
+  }
+  .nav-items a:hover,.nav-items a.active{
+    text-decoration: underline;
+    color:rgb(145, 212, 12)
+  }
+  
+  .right-container{
+    display: block;
+    margin-left:  auto;
+  }
+  
+  .search-box{
+    border: none;
+    border-bottom: 1px solid white;
+    background:transparent  ;
+    outline: none;
+    height:30px;
+    color: #fff;
+    width: 150[x];
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 500;
+    
+  }
+  .search-box:focus{
+ width: 350px;
+ border-color: cadetblue;
+ transition: -3.5s;
+ transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1) 0
+  }
+ 
+  .sub-btn{
+    background: #1f80cf;
+    height: 30px;
+    padding: 0 20px;
+    color: #fff;
+    border-radius: 5px;
+    border:none;
+    outline: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 12px;
+    margin: 0 10px;
+ }
+ .sub-btn:hover{
+    background-color:rgba(3, 3, 255, 0.692);
+ }
+ .login-link{
+    color: #fff;
+    opacity:0.9;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 15px;
+    padding: 6px 8px;
+    margin-top: 80px;
+    text-decoration: none;
+    margin-right: 29px;
+ } 
+ .login-link:hover{
+    color: black;
+    background-color:aliceblue ;
+ }
+ 
+ .intro{
+   height: 550px;
+   width: 100%;
+   margin: 90px 0 0 0;
+   object-fit: cover;
+ }
+ .cp {
+  height: 150px;
+  margin-top: 80px;
+  align-items: center;
+  justify-items: center;
+  font: weight 400px; 
+  color: #3589A1;
+  font-family: "Roboto","HelveticaNeue-Light",sans-serif;;
+ }
+ .container{
+   justify-content: center;
+   display: flex;
+   color: white;
+   
+}
+.cards{
+   margin-inline: 20px;
+   height: 400px;
+   width: 400px;
+   background: rgb(255,255,255,0);
+}
+.cards:hover{
+   background: rgb(255,255,255,0.2);
+}
+.card-image{
+   height: 150px;
+   width: auto;
+   background-color: aqua;
+background-size: cover;
+}
