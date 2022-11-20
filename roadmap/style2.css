@@ -1,0 +1,106 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: 'Roboto',sans-serif;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background:url("https://roadmap.sh/bg.jpg");
+    background-color: #ede4e4; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    font-size: medium;
+    color:#ffff;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    height: 80px;
+    width:100%;
+    position:relative;
+    /* padding: 20px 0px; */
+    /* border:2px solid pink; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.maindiv{
+max-width: 700px;
+margin:auto;
+}
+.para1{
+  
+      padding: 35px 0px 35px;
+      text-align: center;
+}
+.para1 > h1{
+     margin: 0px 0px 20px;
+   
+
+}
+.b1{
+    /* display:inline-block; */
+    color: #1A202C;
+    position: relative;
+    background: rgb(156, 227, 199);
+   
+    padding: 5px;
+    margin: 0px 0px 16px;
+    border-radius: 5px;
+   text-align: center;
+}
+.itemscontainer{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+
+
+.item{
+width: 260px;
+background-color:rgb(255,255,255,0.1);
+
+height: fit-content;
+margin: 0px;
+padding: 10px;
+transition:0.4s ;
+}
+
+
+
+.item:hover{
+   /* background-color: rgb(6, 70, 50); */
+   background-color: rgba(255,255,255,0.2);
+}
+.div-down>h3{
+    text-align: center;
+}
+
+
+.col{
+    display: flex;
+    flex-direction: column;
+}
+input{
+    background-color: transparent;
+    outline: none;
+    border: 0 solid white;
+    border-bottom-width: 5px;
+    margin-top: 20px;
+    height: 20px;
+    transition: 0.5s;
+   
+}
+input:valid{
+    border-color: rgb(0, 250, 33);
+
+}
